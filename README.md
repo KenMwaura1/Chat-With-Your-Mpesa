@@ -35,6 +35,38 @@ The data extraction and cleaning process is crucial for preparing the Mpesa tran
 - Conclusion
 - The Chat With Your Mpesa Statements project encompasses the extraction and cleaning of transactions from Mpesa PDF statements to the development of APIs for integration with the Streamlit Front End. This project aims to provide users with an engaging platform to analyze their Mpesa transactions using the power of Large Language Models (LLMs) without sharing sensitive data.
 
+## Getting Your Mpesa Statements
+
+### Using USSD
+
+To get your Mpesa statements, follow the steps below:
+
+1. Dial *234# on your Safaricom line.
+2. Select "My M-PESA Information".
+3. Select "M-PESA Statement".
+4. Select "Full Statement".
+5. Select "PDF".
+6. Enter the start date for the statement.
+7. Enter the end date for the statement.
+8. Enter the email address where you would like to receive the statement.
+9. You will receive an email with the Mpesa statement in PDF format.
+10. Download the PDF statement and save it to your local machine.
+11. You'll also receive a code to open the PDF statement. Save this code as you'll need it to extract the transactions.
+12. You can now upload the PDF statement to the Chat With Your Mpesa Statements platform to analyze your transactions.
+
+### Use the MySafaricom App
+
+1. Open the MySafaricom App on your phone.
+2. Click on M-PESA.
+3. Click on "Statements".
+4. Click on "Full Statement".
+5. Select the period for the statement.
+6. Enter the email address where you would like to receive the statement.
+7. You will receive an email with the Mpesa statement in PDF format.
+8. Download the PDF statement and save it to your local machine.
+9. You'll also receive a code to open the PDF statement. Save this code as you'll need it to extract the transactions.
+10. You can now upload the PDF statement to the Chat With Your Mpesa Statements platform to analyze your transactions.
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies.
@@ -54,7 +86,6 @@ streamlit run streamlit_app.py
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 
 ## License
 

@@ -1,5 +1,9 @@
 # Chat With Your Mpesa Statements
 
+[![Docker Image Publish](https://github.com/KenMwaura1/Chat-With-Your-Mpesa/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/KenMwaura1/Chat-With-Your-Mpesa/actions/workflows/docker-publish.yml)
+[![Python Application Test](https://github.com/KenMwaura1/Chat-With-Your-Mpesa/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/KenMwaura1/Chat-With-Your-Mpesa/actions/workflows/pythonapp.yml)[![CodeQL](https://github.com/KenMwaura1/Chat-With-Your-Mpesa/actions/workflows/codeql.yml/badge.svg)](https://github.com/KenMwaura1/Chat-With-Your-Mpesa/actions/workflows/codeql.yml)
+
+
 ![Home_Page](https://github.com/DennisChangach/Chat-With-Your-Mpesa-Statements/assets/41690660/269fcde4-9090-450d-9ee8-d3d0d4f385e0)
 
 Ever wanted to analyze your Mpesa spending using the power of Large Language Models (LLMs) without sharing your sensitive data?

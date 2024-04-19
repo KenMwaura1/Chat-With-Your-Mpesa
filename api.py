@@ -34,6 +34,10 @@ llm = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.3)
 #Initilializing the output parser
 output_parser = StrOutputParser()
 
+#Defining the prompt
+
+my_prompt = few_shot_prompt
+
 # Define FastAPI app
 app = FastAPI()
 
@@ -64,9 +68,6 @@ def get_few_shot_response(input_question):
 
     example_selector.select_examples({"Question": "What is the total amount of money withdrawn?"})
 
-
-    my_prompt = few_shot_prompt
-    
 
     PROMPT_SUFFIX = """
 

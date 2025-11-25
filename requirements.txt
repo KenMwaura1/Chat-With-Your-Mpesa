@@ -1,5 +1,6 @@
 pyPDF2
-tabula-py==2.9.0
+# tabula-py==2.9.0
+tabula-py
 pandas
 matplotlib
 plotly
@@ -9,7 +10,8 @@ millify
 streamlit
 python-dotenv
 tiktoken==0.4.0
-faiss-cpu==1.7.4
+#faiss-cpu==1.7.4
+faiss-cpu
 protobuf
 google-generativeai
 langchain
